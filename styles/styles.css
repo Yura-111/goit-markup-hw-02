@@ -1,24 +1,262 @@
+:root {
+--primaru-text-color: #212121;
+--titel-text-color: #2196F3;
+--accent-color: #F5F4FA;
+}
+
+/* css for index.html */
+.body {
+font-family:'Roboto', sans-serif;
+color: #212121;
+background: #F5F4FA;
+}
 /* logo */
 .logo-link {
-font-family: 'Raleway';
-font-style: normal;
+font-family: 'Raleway', sans-serif;
 font-weight: 700;
 font-size: 26px;
 line-height: 31px;
 letter-spacing: 0.03em;
 color: #2196F3;
+text-decoration: none;
 }
 
 .logo {
-    color: #212121
+color: #212121
 }
 
-.logo-link:focus,
-.logo-link:hover {
-    color: #080808;
-    
+.clean {
+list-style: none;
 }
 
-.logo-link:active {
-    color: #2196F3
+/* Nav */
+.nav {
+font-weight: 500;
+font-size: 14px;
+line-height: 16px;
+letter-spacing: 0.02em;
+color: #212121;
+}
+
+.nav .link-nav {
+color: var(--titel-text-color);
+}
+
+.nav a {
+text-decoration: none;
+}
+
+.nav:hover,
+.nav:focus {
+color: tomato
+}
+
+.link-nav:hover,
+.link-nav:focus {
+color: tomato
+}
+
+.link-navigation:hover,
+.link-navigation:focus {
+color: tomato
+}
+
+/* header-address */
+.mail {
+font-weight: 500;
+font-size: 14px;
+line-height: 16px;
+letter-spacing: 0.02em;
+color: #2196F3;
+}
+.mail:hover,
+.mail:focus {
+color: tomato
+}
+
+.tel {
+font-weight: 500;
+font-size: 14px;
+line-height: 16px;
+letter-spacing: 0.02em;
+color: #757575;
+}
+.tel:hover,
+.tel:focus {
+color: tomato
+}
+/* Hero */
+.hero {
+background: #2F303A;
+}
+
+.head {
+font-weight: 900;
+font-size: 44px;
+line-height: 60px;
+text-align: center;
+letter-spacing: 0.06em;
+text-transform: uppercase;
+color: #FFFFFF;
+}
+
+.btn-primary {
+background: var(--titel-text-color);
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+border-radius: 4px;
+cursor:pointer;
+} 
+
+
+.name-button {
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 700;
+font-size: 16px;
+line-height: 30px;
+display: flex;
+align-items: center;
+text-align: center;
+letter-spacing: 0.06em;
+color: var(--accent-color);
+}
+
+.name-button:hover,
+.name-button:focus {
+color: tomato
+}
+
+/* features */
+.features {
+font-weight: 700;
+font-size: 14px;
+line-height: 16px;
+letter-spacing: 0.03em;
+text-transform: uppercase;
+color: #212121;
+}
+
+.features-text {
+font-weight: 400;
+font-size: 14px;
+line-height: 24px;
+letter-spacing: 0.03em;
+color: #757575;
+}
+
+.h2 {
+font-weight: 700;
+font-size: 36px;
+line-height: 42px;
+letter-spacing: 0.03em;
+color: #212121;
+}
+
+/* team */
+.team{
+font-weight: 500;
+font-size: 16px;
+line-height: 19px;
+letter-spacing: 0.03em;
+color: #212121;
+}
+
+.position {
+font-weight: 400;
+font-size: 16px;
+line-height: 19px;
+letter-spacing: 0.03em;
+color: #757575;
+}
+
+/* footer */
+.footer {
+width: 1600px;
+height: 252px;
+left: 0px;
+top: 2097px;
+background: #2F303A;
+}
+.logo-footer {
+color: #FFFFFF;
+}
+
+/* address */
+.address-footer {
+font-style: normal
+}
+
+.address {
+font-size: 14px;
+line-height: 24px;
+letter-spacing: 0.03em;
+color: #FFFFFF;
+text-decoration: none;
+}
+.address:hover,
+.address:focus {
+color: tomato
+}
+
+.footer-address {
+text-decoration: none;
+}
+
+.footer-nav:hover,
+.footer-nav:focus {
+color: tomato
+
+}
+.footer-nav {
+font-size: 14px;
+line-height: 24px;
+letter-spacing: 0.03em;
+color: rgba(255, 255, 255, 0.6);
+}
+
+/* css for portfiolio */
+
+/* buttons */
+.btn {
+background: #F5F4FA;
+border-radius: 4px;
+cursor:pointer;
+}
+
+.btn-secondary {
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 26px;text-align: center;
+letter-spacing: 0.03em;
+color: #212121;
+}
+.btn-secondary:hover,
+.btn-secondary:focus {
+color: tomato
+}
+
+.tip {
+background: #2196F3;
+box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1),
+0px 1px 2px rgba(0, 0, 0, 0.08),
+0px 2px 2px rgba(0, 0, 0, 0.12);
+border-radius: 4px;
+}
+
+/* sample */
+.sample-head {
+font-weight: 700;
+font-size: 18px;
+line-height: 36px;letter-spacing: 0.06em;
+color: #212121;
+}
+
+.text {
+font-weight: 400;
+font-size: 16px;
+line-height: 30px;
+letter-spacing: 0.03em;
+color: #757575;
 }
