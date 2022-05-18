@@ -28,6 +28,17 @@ color: #212121
 list-style: none;
 }
 
+.visually-hidden {
+position: absolute;
+white-space: nowrap;
+overflow: hidden;
+border: 0;
+padding: 0;
+clip: rect(0 0 0 0);
+clip-path: inset(50%);
+margin: -1px;
+}
+
 /* Nav */
 .nav {
 font-weight: 500;
@@ -72,7 +83,8 @@ font-weight: 500;
 font-size: 14px;
 line-height: 1.14;
 letter-spacing: 0.02em;
-color: #2196F3;
+color: #757575;
+text-decoration: none;
 }
 
 
@@ -82,6 +94,7 @@ font-size: 14px;
 line-height: 1.14;
 letter-spacing: 0.02em;
 color: #757575;
+text-decoration: none;
 }
 
 /* Hero */
@@ -100,26 +113,17 @@ color: #FFFFFF;
 }
 
 .btn-primary {
+font-family: inherit;
 background: var(--titel-text-color);
 box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
 border-radius: 4px;
-cursor:pointer;
-} 
-
-
-.name-button {
-font-family: 'Roboto';
-font-style: normal;
 font-weight: 700;
 font-size: 16px;
 line-height: 1.87;
-display: flex;
-align-items: center;
-text-align: center;
 letter-spacing: 0.06em;
 color: var(--accent-color);
-}
-
+cursor:pointer;
+} 
 
 
 /* features */
@@ -133,7 +137,6 @@ color: #212121;
 }
 
 .features-text {
-font-weight: 400;
 font-size: 14px;
 line-height: 1.71;
 letter-spacing: 0.03em;
@@ -145,7 +148,7 @@ background: #F5F4FA;
 
 }
 
-.h2 {
+.head-name {
 font-weight: 700;
 font-size: 36px;
 line-height: 1.16;
@@ -163,8 +166,6 @@ color: #212121;
 }
 
 .position {
-font-weight: 400;
-font-size: 16px;
 line-height: 1.18;
 letter-spacing: 0.03em;
 color: #757575;
@@ -172,10 +173,6 @@ color: #757575;
 
 /* footer */
 .footer {
-width: 1600px;
-height: 252px;
-left: 0px;
-top: 2097px;
 background: #2F303A;
 }
 .logo-footer {
@@ -205,6 +202,7 @@ font-size: 14px;
 line-height: 1.71;
 letter-spacing: 0.03em;
 color: rgba(255, 255, 255, 0.6);
+text-decoration: none;
 }
 
 /* css for portfiolio */
@@ -217,8 +215,7 @@ cursor:pointer;
 }
 
 .btn-secondary {
-font-family: 'Roboto';
-font-style: normal;
+font-family: inherit;
 font-weight: 500;
 font-size: 16px;
 line-height: 1.62;
@@ -246,9 +243,12 @@ color: #212121;
 }
 
 .text {
-font-weight: 400;
 font-size: 16px;
 line-height: 1.87;
 letter-spacing: 0.03em;
-color: #757575;
+color: #757575; 
+}
+
+.sample-clean {
+text-decoration: none;
 }
