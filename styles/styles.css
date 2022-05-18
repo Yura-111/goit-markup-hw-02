@@ -14,7 +14,7 @@ color: #212121;
 font-family: 'Raleway', sans-serif;
 font-weight: 700;
 font-size: 26px;
-line-height: 1,20;
+line-height: 1.20;
 letter-spacing: 0.03em;
 color: #2196F3;
 text-decoration: none;
@@ -32,7 +32,7 @@ list-style: none;
 .nav {
 font-weight: 500;
 font-size: 14px;
-line-height: 1,14;
+line-height: 1.14;
 letter-spacing: 0.02em;
 color: #212121;
 }
@@ -46,17 +46,23 @@ text-decoration: none;
 }
 
 .nav:hover,
-.nav:focus {
-color: tomato
-}
-
+.nav:focus,
 .link-nav:hover,
-.link-nav:focus {
-color: tomato
-}
-
+.link-nav:focus,
 .link-navigation:hover,
-.link-navigation:focus {
+.link-navigation:focus,
+.name-button:hover,
+.name-button:focus,
+.address:hover,
+.address:focus,
+.footer-nav:hover,
+.footer-nav:focus,
+.btn-secondary:hover,
+.btn-secondary:focus,
+.mail:hover,
+.mail:focus,
+.tel:hover,
+.tel:focus {
 color: tomato
 }
 
@@ -64,26 +70,20 @@ color: tomato
 .mail {
 font-weight: 500;
 font-size: 14px;
-line-height: 1,14;
+line-height: 1.14;
 letter-spacing: 0.02em;
 color: #2196F3;
 }
-.mail:hover,
-.mail:focus {
-color: tomato
-}
+
 
 .tel {
 font-weight: 500;
 font-size: 14px;
-line-height: 1,14;
+line-height: 1.14;
 letter-spacing: 0.02em;
 color: #757575;
 }
-.tel:hover,
-.tel:focus {
-color: tomato
-}
+
 /* Hero */
 .hero {
 background: #2F303A;
@@ -92,7 +92,7 @@ background: #2F303A;
 .head {
 font-weight: 900;
 font-size: 44px;
-line-height: 1,36;
+line-height: 1.36;
 text-align: center;
 letter-spacing: 0.06em;
 text-transform: uppercase;
@@ -112,7 +112,7 @@ font-family: 'Roboto';
 font-style: normal;
 font-weight: 700;
 font-size: 16px;
-line-height: 1,87;
+line-height: 1.87;
 display: flex;
 align-items: center;
 text-align: center;
@@ -120,16 +120,13 @@ letter-spacing: 0.06em;
 color: var(--accent-color);
 }
 
-.name-button:hover,
-.name-button:focus {
-color: tomato
-}
+
 
 /* features */
 .features {
 font-weight: 700;
 font-size: 14px;
-line-height: 1,14;
+line-height: 1.14;
 letter-spacing: 0.03em;
 text-transform: uppercase;
 color: #212121;
@@ -138,7 +135,7 @@ color: #212121;
 .features-text {
 font-weight: 400;
 font-size: 14px;
-line-height: 1,71;
+line-height: 1.71;
 letter-spacing: 0.03em;
 color: #757575;
 }
@@ -151,7 +148,7 @@ background: #F5F4FA;
 .h2 {
 font-weight: 700;
 font-size: 36px;
-line-height: 1,16;
+line-height: 1.16;
 letter-spacing: 0.03em;
 color: #212121;
 }
@@ -160,7 +157,7 @@ color: #212121;
 .team{
 font-weight: 500;
 font-size: 16px;
-line-height: 1,18;
+line-height: 1.18;
 letter-spacing: 0.03em;
 color: #212121;
 }
@@ -168,7 +165,7 @@ color: #212121;
 .position {
 font-weight: 400;
 font-size: 16px;
-line-height: 1,18;
+line-height: 1.18;
 letter-spacing: 0.03em;
 color: #757575;
 }
@@ -192,28 +189,20 @@ font-style: normal
 
 .address {
 font-size: 14px;
-line-height: 1,71;
+line-height: 1.71;
 letter-spacing: 0.03em;
 color: #FFFFFF;
 text-decoration: none;
 }
-.address:hover,
-.address:focus {
-color: tomato
-}
+
 
 .footer-address {
 text-decoration: none;
 }
 
-.footer-nav:hover,
-.footer-nav:focus {
-color: tomato
-
-}
 .footer-nav {
 font-size: 14px;
-line-height: 1,71;
+line-height: 1.71;
 letter-spacing: 0.03em;
 color: rgba(255, 255, 255, 0.6);
 }
@@ -232,15 +221,12 @@ font-family: 'Roboto';
 font-style: normal;
 font-weight: 500;
 font-size: 16px;
-line-height: 1,62;
+line-height: 1.62;
 text-align: center;
 letter-spacing: 0.03em;
 color: #212121;
 }
-.btn-secondary:hover,
-.btn-secondary:focus {
-color: tomato
-}
+
 
 .tip {
 background: #2196F3;
@@ -262,7 +248,7 @@ color: #212121;
 .text {
 font-weight: 400;
 font-size: 16px;
-line-height: 1,87;
+line-height: 1.87;
 letter-spacing: 0.03em;
 color: #757575;
 }
