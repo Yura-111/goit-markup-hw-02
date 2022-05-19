@@ -74,7 +74,7 @@ text-decoration: none;
 .mail:focus,
 .tel:hover,
 .tel:focus {
-color: tomato
+color: #2196F3
 }
 
 /* header-address */
