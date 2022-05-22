@@ -46,6 +46,7 @@
 
 .skills {
     padding-bottom: 94px;
+    padding-top: 94px;
     
 }
 
@@ -184,8 +185,16 @@
     color: #757575;
 }
 
+.interactive {
+    background-color: aqua;
+}
+
+
 .back {
-    background: #F5F4FA;
+    /* background: #F5F4FA; */
+    background-color: violet;
+    padding-bottom: 94px;
+    padding-top: 94px;
 
 }
 
@@ -197,6 +206,7 @@
     line-height: 1.16;
     letter-spacing: 0.03em;
     color: #212121;
+    text-align: center;
 }
 
 /* team */
@@ -243,6 +253,7 @@
 .footer {
     background: #2F303A;
     height: 252px;
+    
 }
 .logo-footer {
     color: #FFFFFF;
@@ -336,4 +347,9 @@
 
 .sample-clean {
     text-decoration: none;
+}
+
+.visually-projects {
+    padding-top: 94px;
+    padding-bottom: 94px;
 }
