@@ -1,59 +1,80 @@
 :root {
---primaru-text-color: #212121;
---titel-text-color: #2196F3;
---accent-color: #F5F4FA;
+    --primaru-text-color: #212121;
+    --titel-text-color: #2196F3;
+    --accent-color: #F5F4FA;
 }
 
 /* css for index.html */
 .body {
-font-family:'Roboto', sans-serif;
-color: #212121;
+    font-family:'Roboto', sans-serif;
+    color: #212121;
 }
+
+.container {
+    margin-left: auto;
+    margin-right: auto;
+    padding: 0 15px;
+    width: 1200px;
+
+
+
+
+    outline: 2px solid tomato;
+}
+
+
 /* logo */
 .logo-link {
-font-family: 'Raleway', sans-serif;
-font-weight: 700;
-font-size: 26px;
-line-height: 1.20;
-letter-spacing: 0.03em;
-color: #2196F3;
-text-decoration: none;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.20;
+    letter-spacing: 0.03em;
+    color: #2196F3;
+    text-decoration: none;
 }
 
 .logo {
-color: #212121
+    color: #212121
 }
 
 .clean {
-list-style: none;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.skills {
+    padding-bottom: 94px;
+    background-color: aqua;
 }
 
 .visually-hidden {
-position: absolute;
-white-space: nowrap;
-overflow: hidden;
-border: 0;
-padding: 0;
-clip: rect(0 0 0 0);
-clip-path: inset(50%);
-margin: -1px;
+    position: absolute;
+    white-space: nowrap;
+    overflow: hidden;
+    border: 0;
+    padding: 0;
+    clip: rect(0 0 0 0);
+    clip-path: inset(50%);
+    margin: -1px;
 }
 
 /* Nav */
 .nav {
-font-weight: 500;
-font-size: 14px;
-line-height: 1.14;
-letter-spacing: 0.02em;
-color: #212121;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+    color: #212121;
 }
 
 .nav .link-nav {
-color: var(--titel-text-color);
+    color: var(--titel-text-color);
 }
 
 .nav a {
-text-decoration: none;
+    text-decoration: none;
 }
 
 .nav:hover,
@@ -74,181 +95,222 @@ text-decoration: none;
 .mail:focus,
 .tel:hover,
 .tel:focus {
-color: #2196F3
+    color: #2196F3
 }
 
 /* header-address */
 .mail {
-font-weight: 500;
-font-size: 14px;
-line-height: 1.14;
-letter-spacing: 0.02em;
-color: #757575;
-text-decoration: none;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+    color: #757575;
+    text-decoration: none;
 }
 
 
 .tel {
-font-weight: 500;
-font-size: 14px;
-line-height: 1.14;
-letter-spacing: 0.02em;
-color: #757575;
-text-decoration: none;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+    color: #757575;
+    text-decoration: none;
 }
 
 /* Hero */
 .hero {
-background: #2F303A;
+    background: #2F303A;
+    text-align: center;
+    margin-top: 0;
+    margin-bottom: 0;
+    
+
+
+
+    outline: 2px solid tomato;
 }
 
 .head {
-font-weight: 900;
-font-size: 44px;
-line-height: 1.36;
-text-align: center;
-letter-spacing: 0.06em;
-text-transform: uppercase;
-color: #FFFFFF;
+    margin-top: 0;
+    margin-bottom: 30px;
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 1.36;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    color: #FFFFFF;
 }
 
 .btn-primary {
-font-family: inherit;
-background: var(--titel-text-color);
-box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
-border-radius: 4px;
-font-weight: 700;
-font-size: 16px;
-line-height: 1.87;
-letter-spacing: 0.06em;
-color: var(--accent-color);
-cursor:pointer;
+    min-width: 200px;
+    display: inline-block;
+    padding: 10px 32px ;
+    border: 1px solid transparent;
+    font-family: inherit;
+    background: var(--titel-text-color);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    border-radius: 4px;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.87;
+    letter-spacing: 0.06em;
+    color: var(--accent-color);
+    cursor:pointer;
+    text-align: center;
 } 
 
 
 /* features */
 .features {
-font-weight: 700;
-font-size: 14px;
-line-height: 1.14;
-letter-spacing: 0.03em;
-text-transform: uppercase;
-color: #212121;
+    margin-top: 0;
+    margin-bottom: 10px;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #212121;
 }
 
 .features-text {
-font-size: 14px;
-line-height: 1.71;
-letter-spacing: 0.03em;
-color: #757575;
+    margin-top: 0;
+    margin-bottom: 0;
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+    color: #757575;
 }
 
 .back {
-background: #F5F4FA;
+    background: #F5F4FA;
 
 }
 
 .head-name {
-font-weight: 700;
-font-size: 36px;
-line-height: 1.16;
-letter-spacing: 0.03em;
-color: #212121;
+    margin-top: 0;
+    margin-bottom: 50px;
+    
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.16;
+    letter-spacing: 0.03em;
+    color: #212121;
 }
 
 /* team */
 .team{
-font-weight: 500;
-font-size: 16px;
-line-height: 1.18;
-letter-spacing: 0.03em;
-color: #212121;
+    margin-top: 0;
+    margin-bottom: 10px;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.18;
+    letter-spacing: 0.03em;
+    color: #212121;
+    text-align: center;
 }
 
+.team-group {
+    background: #FFFFFF;
+box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12),
+0px 1px 1px rgba(0, 0, 0, 0.14),
+0px 2px 1px rgba(0, 0, 0, 0.2);
+border-radius: 0px 0px 4px 4px;
+width: 270px;
+height: 368px;
+}
+
+.team-position {
+    margin-top: 0;
+    margin-bottom: 30px;
+}
 .position {
-line-height: 1.18;
-letter-spacing: 0.03em;
-color: #757575;
+    margin-top: 0;
+    margin-bottom: 0px;
+    line-height: 1.18;
+    letter-spacing: 0.03em;
+    color: #757575;
+    text-align: center;
 }
 
 /* footer */
 .footer {
-background: #2F303A;
+    background: #2F303A;
 }
 .logo-footer {
-color: #FFFFFF;
+    color: #FFFFFF;
 }
 
 /* address */
 .address-footer {
-font-style: normal
+    font-style: normal
 }
 
 .address {
-font-size: 14px;
-line-height: 1.71;
-letter-spacing: 0.03em;
-color: #FFFFFF;
-text-decoration: none;
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+    color: #FFFFFF;
+    text-decoration: none;
 }
 
 
 .footer-address {
-text-decoration: none;
+    text-decoration: none;
 }
 
 .footer-nav {
-font-size: 14px;
-line-height: 1.71;
-letter-spacing: 0.03em;
-color: rgba(255, 255, 255, 0.6);
-text-decoration: none;
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+    color: rgba(255, 255, 255, 0.6);
+    text-decoration: none;
 }
 
 /* css for portfiolio */
 
 /* buttons */
 .btn {
-background: #F5F4FA;
-border-radius: 4px;
-cursor:pointer;
+    background: #F5F4FA;
+    border-radius: 4px;
+    cursor:pointer;
 }
 
 .btn-secondary {
-font-family: inherit;
-font-weight: 500;
-font-size: 16px;
-line-height: 1.62;
-text-align: center;
-letter-spacing: 0.03em;
-color: #212121;
+    font-family: inherit;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.62;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: #212121;
 }
 
 
 .tip {
-background: #2196F3;
-box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1),
-0px 1px 2px rgba(0, 0, 0, 0.08),
-0px 2px 2px rgba(0, 0, 0, 0.12);
-border-radius: 4px;
+    background: #2196F3;
+    box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1),
+    0px 1px 2px rgba(0, 0, 0, 0.08),
+    0px 2px 2px rgba(0, 0, 0, 0.12);
+    border-radius: 4px;
 }
 
 /* sample */
 .sample-head {
-font-weight: 700;
-font-size: 18px;
-line-height: 2;
-letter-spacing: 0.06em;
-color: #212121;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 2;
+    letter-spacing: 0.06em;
+    color: #212121;
 }
 
 .text {
-font-size: 16px;
-line-height: 1.87;
-letter-spacing: 0.03em;
-color: #757575; 
+    font-size: 16px;
+    line-height: 1.87;
+    letter-spacing: 0.03em;
+    color: #757575; 
 }
 
 .sample-clean {
-text-decoration: none;
+    text-decoration: none;
 }
