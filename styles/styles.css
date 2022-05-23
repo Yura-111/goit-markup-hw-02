@@ -22,6 +22,11 @@
     outline: 2px solid tomato;
 }
 
+.size {
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+
 
 /* logo */
 .logo-link {
@@ -97,7 +102,9 @@
 .tel:hover,
 .tel:focus,
 .btn-secondary:hover,
-.btn-secondary:focus {
+.btn-secondary:focus
+.btn-primary:hover,
+.btn-primary:focus {
     color: #2196F3
 }
 
@@ -183,10 +190,12 @@
     line-height: 1.71;
     letter-spacing: 0.03em;
     color: #757575;
+    max-width: 270px;
 }
 
 .interactive {
     background-color: aqua;
+    padding-bottom: 94px;
 }
 
 
@@ -194,9 +203,7 @@
     /* background: #F5F4FA; */
     background-color: violet;
     padding-bottom: 94px;
-    padding-top: 94px;
-
-}
+    }
 
 .head-name {
     margin-top: 0;
@@ -231,15 +238,25 @@
     height: 368px;
 }
 
-/* .name-group {
+.name-group {
     display: inline-block;
-    
-} */
+    background: #FFFFFF;
+    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12),
+    0px 1px 1px rgba(0, 0, 0, 0.14),
+    0px 2px 1px rgba(0, 0, 0, 0.2);
+    border-radius: 0px 0px 4px 4px;
+}
 
 .team-position {
     margin-top: 0;
-    margin-bottom: 30px;
+    margin-bottom: 0px;
 }
+
+.team-card {
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
 .position {
     margin-top: 0;
     margin-bottom: 0px;
@@ -259,9 +276,13 @@
     color: #FFFFFF;
 }
 
+
+
 /* address */
 .address-footer {
-    font-style: normal
+    margin-top: 20px;
+    font-style: normal;
+
 }
 
 .address {
@@ -352,4 +373,8 @@
 .visually-projects {
     padding-top: 94px;
     padding-bottom: 94px;
+}
+
+.projects-sample {
+    padding: 20px 24px;
 }
