@@ -15,11 +15,6 @@
     margin-right: auto;
     padding: 0 15px;
     width: 1200px;
-
-
-
-
-    outline: 2px solid tomato;
 }
 
 
@@ -31,10 +26,12 @@
 
 .main-nav {
     display: flex;
+    
 }
 
 .sit-nav {
     display: flex;
+    align-items: center;
 }
 
 .size {
@@ -52,6 +49,7 @@
     letter-spacing: 0.03em;
     color: #2196F3;
     text-decoration: none;
+    margin-right: 93px;
 }
 
 .logo {
@@ -102,6 +100,7 @@
 
 .info {
     display: flex;
+    margin-left: auto;
 }
 
 
@@ -150,17 +149,21 @@
     text-decoration: none;
 }
 
+
+.item + .item {
+    margin-left: 50px;
+}
+
+
 /* Hero */
 .hero {
     background: #2F303A;
     text-align: center;
     margin-top: 0;
     margin-bottom: 0;
-    
+    padding-top: 200px;
+    padding-bottom: 200px;
 
-
-
-    outline: 2px solid tomato;
 }
 
 .head {
@@ -172,6 +175,7 @@
     letter-spacing: 0.06em;
     text-transform: uppercase;
     color: #FFFFFF;
+
 }
 
 .btn-primary {
@@ -232,13 +236,11 @@ margin-right: 30px;
 }
 
 .interactive {
-    background-color: aqua;
     padding-bottom: 94px;
 }
 
 
 .back {
-    background-color: violet;
     padding-bottom: 94px;
     padding-top: 94px;
     }
@@ -280,8 +282,12 @@ margin-right: 30px;
     letter-spacing: 0.03em;
     color: #212121;
     text-align: center;
+    margin-right: 30px;
 }
 
+.team:nth-child(4n) {
+    margin-right: 0;
+}
 .team-group {
     background: #FFFFFF;
     box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12),
@@ -399,6 +405,18 @@ margin-right: 30px;
     cursor:pointer;
 }
 
+.item-button {
+    display: flex;
+    justify-content: center;
+    
+}
+
+.item-btn {
+    margin-right: 8px;
+    margin-bottom: 50px;
+}
+
+
 .tip {
     background: #2196F3;
     box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1),
@@ -434,6 +452,33 @@ margin-right: 30px;
     background: #FFFFFF;
     border: 1px solid #EEEEEE;
 }
+
+.sample-projects {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.item-projects {
+    width: 370px;
+    height: 404px;
+    left: 615px;
+    top: 262px;
+
+    background: #FFFFFF;
+    border: 1px solid #EEEEEE;
+    margin-right: 30px;
+    margin-bottom: 30px;
+
+}
+
+.item-projects:nth-child(3n) {
+    margin-right: 0;
+}
+
+.item-projects:nth-last-child(-n+3) {
+    margin-bottom: 0;
+}
+
 
 .sample-clean {
     text-decoration: none;
