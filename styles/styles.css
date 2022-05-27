@@ -28,14 +28,14 @@
     padding-top: 24px;
     padding-bottom: 24px;
 }
-/* 
+
 .main-nav {
     display: flex;
 }
 
 .sit-nav {
     display: flex;
-} */
+}
 
 .size {
     padding-top: 60px;
@@ -82,23 +82,28 @@
 }
 
 /* Nav */
-.nav {
-  
-    font-weight: 500;
-    font-size: 14px;
-    line-height: 1.14;
-    letter-spacing: 0.02em;
-    color: #212121;
-    display: block;
-}
 
 .nav .link-nav {
     color: var(--titel-text-color);
 }
 
+.nav {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+    color: #212121;
+    /* display: block; */
+}
+
 .nav a {
     text-decoration: none;
 }
+
+.info {
+    display: flex;
+}
+
 
 .nav:hover,
 .nav:focus,
@@ -203,12 +208,18 @@
 
 .features-details {
     display: flex;
+    flex-wrap: wrap;    
 }
 
 
-/* .features-size {
+.features-size {
+width: 270px;
+margin-right: 30px;
+}
 
-} */
+.features-size:nth-child(4n) {
+    margin-right: 0;
+}
 
 .features-text {
     margin-top: 0;
@@ -227,9 +238,9 @@
 
 
 .back {
-    /* background: #F5F4FA; */
     background-color: violet;
     padding-bottom: 94px;
+    padding-top: 94px;
     }
 
 .head-name {
@@ -242,6 +253,22 @@
     color: #212121;
     text-align: center;
 }
+
+.head-list {
+    display: flex;
+    flex-wrap: wrap; 
+}
+
+.head-number {
+    width: 370px;
+    margin-right: 30px;
+}
+
+
+.head-number:nth-child(3n) {
+    margin-right: 0;
+}
+
 
 /* team */
 .team{
@@ -264,6 +291,21 @@
     width: 270px;
     height: 368px;
 }
+
+.team-name {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.team-number {
+    width: 270px;
+    margin-right: 30px;
+}  
+
+.team-number:nth-child(4n) {
+    margin-right: 0;
+}
+
 
 .name-group {
     display: inline-block;
